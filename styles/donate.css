@@ -1,0 +1,54 @@
+.title{
+    margin-top: 100px;
+    text-align: center;
+}
+.donate-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+}
+
+.donation-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.donation-card {
+    background-color: var(--secondary-color);
+    padding: 2rem;
+}
+.donation-card:last-child{
+    border-left: 1px solid var(--border-color);
+}
+
+/* Keep the original layout but fix button colors */
+.amount-btn {
+    background-color: #f5f5f5;  /* Light grey background */
+    border: 1px solid #d0d0d0;  /* Subtle border */
+    padding: 0.5rem;
+    width: 400px;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.amount-btn:hover {
+    background-color: #e8e8e8;  /* Slightly darker on hover */
+}
+
+.donate-now, .become-monthly-donor {
+    background-color: var(--primary-color);  /* Using your theme color */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    width: 400px;
+    transition: background-color 0.3s ease;
+}
+
+.donate-now:hover, .become-monthly-donor:hover {
+    background-color: #0052a3;  /* Darker shade of your primary color */
+}
