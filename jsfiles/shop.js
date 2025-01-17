@@ -2,83 +2,83 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Product data
     // "styles/assets/merch/backpack1.png"
-    const products = [
+       const products = [
         {
             id: 1,
             name: 'SSA Backpack',
-            price: 39.99,
+            price: 25.00,
             image: 'styles/assets/merch/backpack1.png',
         },
         {
             id: 2,
             name: 'SSA Cross-body Bag',
-            price: 29.99,
+            price: 20.00,
             image: 'styles/assets/merch/backpack2.png',
         },
         {
             id: 3,
             name: 'SSA Tote Bag',
-            price: 24.99,
+            price: 15.00,
             image: 'styles/assets/merch/bag1.png',
         },
         {
             id: 4,
             name: 'SSA Water Bottle',
-            price: 19.99,
+            price: 12.00,
             image: 'styles/assets/merch/bottle1.png',
         },
         {
             id: 5,
             name: 'SSA Tumbler',
-            price: 24.99,
+            price: 15.00,
             image: 'styles/assets/merch/bottle2.png',
         },
         {
             id: 6,
             name: 'SSA White Ceramic Tumbler',
-            price: 24.99,
+            price: 15.00,
             image: 'styles/assets/merch/bottle3.png',
         },
         {
             id: 7,
             name: 'SSA Coffee Cup',
-            price: 24.99,
+            price: 10.00,
             image: 'styles/assets/merch/cup.png',
         },
         {
             id: 8,
             name: 'SSA Cap',
-            price: 19.99,
+            price: 12.00,
             image: 'styles/assets/merch/cap.png',
         },
         {
             id: 9,
             name: 'SSA Baseball Cap',
-            price: 19.99,
+            price: 12.00,
             image: 'styles/assets/merch/cap2.png',
         },
         {
             id: 10,
             name: 'SSA Hoodie',
-            price: 24.99,
+            price: 25.00,
             image: 'styles/assets/merch/hoodie.png',
         },
         {
             id: 11,
             name: 'SSA T-Shirt',
-            price: 24.99,
+            price: 15.00,
             image: 'styles/assets/merch/t-shirt1.png',
         },
         {
             id: 12,
             name: 'SSA Pen',
-            price: 24.99,
+            price: 5.00,
             image: 'styles/assets/merch/pen.png',
         },
         {
             id: 13,
             name: 'SSA Notebook',
-            price: 24.99,
+            price: 8.00,
             image: 'styles/assets/merch/notebook.png',
         }
     ];
